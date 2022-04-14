@@ -13,7 +13,7 @@ public class Cheetah extends Mammal implements Hunter{
     @Override
     public void show() {
         super.show();
-        System.out.println("Unique feature: " + uniqueFeature);
+        System.out.println(", \""  + uniqueFeature + "\"");
     }
 
     @Override

@@ -13,6 +13,6 @@ public abstract class Bird extends Animal {
     @Override
     public void show() {
         super.show();
-        System.out.println("Flight altitude: " + flightAltitude);
+        System.out.print(", Flight altitude:" + flightAltitude);
     }
 }

@@ -13,6 +13,6 @@ public abstract class Mammal extends Animal {
     @Override
     public void show() {
         super.show();
-        System.out.println("Run speed: " + runSpeed);
+        System.out.print(", Run speed:" + runSpeed);
     }
 }
